@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+header{
+  height: 64px !important;
+  max-height: 64px !important;
+}
+
+footer{
+  height: 48px !important;
+  max-height: 48px !important;
+}
+
+main{
+  height: calc(100vh - 112px) !important;
+}
+
+.leaflet-container {
+  width: 100wh;
+  height: 100%;
+}
+
+.custom-draw-button{
+  background-image: url('/screen.png') !important;
+  background-size: 16px 16px !important;
+  cursor: pointer !important;
+}
