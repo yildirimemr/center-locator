@@ -1,5 +1,7 @@
 import React from "react";
-import BaseMap from "@/components/BaseMap";
+import dynamic from "next/dynamic";
+
+const BaseMap = dynamic(() => import("@/components/BaseMap"), { ssr: false });
 
 const HomePage = () => {
   return <BaseMap />;
