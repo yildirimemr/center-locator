@@ -15,5 +15,8 @@ In the created application, The buildings in the designated area are detected an
 3. Then, run in terminal `npm run dev`.
 4. Finally, open `localhost:3000` from your web browser.
 
+### Demo
+[Demo](https://center-locator.vercel.app)
+
 ## Authors
 * **Emre Yıldırım** - [GitHub](https://github.com/yildirimemr)
